@@ -2,8 +2,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: white; /* No background image, just a plain white background */
-    color: black; /* Keep text black for readability */
+    background-color: white; 
+    color: black; 
     font-family: 'Karla', sans-serif;
 }
 
@@ -22,7 +22,7 @@ p, ul, li {
 
 /* Links */
 a {
-    text-decoration: none; /* Keep links without underline */
+    text-decoration: none; 
 }
 
 a:hover {
