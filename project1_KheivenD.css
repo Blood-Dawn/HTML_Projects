@@ -1,0 +1,47 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white; /* No background image, just a plain white background */
+    color: black; /* Keep text black for readability */
+    font-family: 'Karla', sans-serif;
+}
+
+/* Header and section titles */
+h1, h2, h3 {
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* Paragraphs and list items */
+p, ul, li {
+    color: black;
+    margin-left: 20px;
+}
+
+/* Links */
+a {
+    text-decoration: none; /* Keep links without underline */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table */
+table {
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
