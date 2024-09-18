@@ -1,1 +1,1 @@
-Every Html related project ive done
+Every Html related project I've done.
