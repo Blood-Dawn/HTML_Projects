@@ -7,30 +7,33 @@ body {
     height: 100vh;
     margin: 0;
     color: #6b4226; /* Dark brown */
-  }
-  
-  .container {
+}
+
+.container {
     text-align: center;
     background-color: #ffefdb; /* Light orange */
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-  }
-  
-  h1 {
+}
+
+h1 {
     color: #8b4513; /* SaddleBrown */
-  }
-  
-  #gameBoard {
+}
+
+#gameBoard {
     display: grid;
-    grid-template-columns: repeat(3, 100px);
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    grid-template-rows: repeat(3, 1fr);    /* Three equal rows */
     gap: 5px;
     margin: 20px auto;
-  }
-  
-  .cell {
-    width: 100px;
-    height: 100px;
+    width: 320px; /* Set a fixed width for the board to keep it centered */
+    height: 320px; /* Set a fixed height for a square grid */
+}
+
+.cell {
+    width: 100%;  /* Each cell takes up full width of the column */
+    height: 100%; /* Each cell takes up full height of the row */
     background-color: #fff8e1; /* Light yellow */
     border: 2px solid #a0522d; /* Sienna */
     display: flex;
@@ -38,9 +41,9 @@ body {
     align-items: center;
     font-size: 2rem;
     cursor: pointer;
-  }
-  
-  #resetButton {
+}
+
+#resetButton {
     background-color: #d2691e; /* Chocolate */
     color: white;
     border: none;
@@ -49,16 +52,15 @@ body {
     font-size: 1rem;
     cursor: pointer;
     margin-top: 15px;
-  }
-  
-  #message {
+}
+
+#message {
     font-size: 1.2rem;
     color: #333;
     margin-top: 10px;
-  }
-  
-  .icon {
+}
+
+.icon {
     width: 60px;
     height: 60px;
-  }
-  
+}
