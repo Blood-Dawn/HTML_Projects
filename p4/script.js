@@ -10,8 +10,8 @@ $(document).ready(function () {
         // jQuery: Set cell's content based on the current player
         $(this).html(
           currentPlayer === "X"
-            ? `<img src="pumpkin.png" alt="Pumpkin" class="icon">`
-            : `<img src="turkey.png" alt="Turkey" class="icon">`,
+            ? `<img src="assets/pumpkin.png" alt="Pumpkin" class="icon">`
+            : `<img src="assets/turkey.png" alt="Turkey" class="icon">`,
         )
   
         if (checkWin()) {
@@ -43,8 +43,8 @@ $(document).ready(function () {
           board[cellIndex] = currentPlayer
           $(this).html(
             currentPlayer === "X"
-              ? `<img src="pumpkin.png" alt="Pumpkin" class="icon">`
-              : `<img src="turkey.png" alt="Turkey" class="icon">`,
+              ? `<img src="assets/pumpkin.png" alt="Pumpkin" class="icon">`
+              : `<img src="assets/turkey.png" alt="Turkey" class="icon">`,
           )
           if (checkWin()) {
             $("#message").text(
