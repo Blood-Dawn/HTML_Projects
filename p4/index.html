@@ -4,31 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gobble Gobble Tic-Tac-Toe</title>
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="styles.css" />
+    <!-- Link to jQuery library -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Link to external JavaScript file -->
     <script src="script.js" defer></script>
   </head>
   <body>
     <div class="container">
       <h1>Gobble Gobble Tic-Tac-Toe</h1>
+      <!-- Game board container -->
       <div id="gameBoard">
+        <!-- First row of cells -->
         <div class="row">
           <div class="cell" data-cell="0"></div>
           <div class="cell" data-cell="1"></div>
           <div class="cell" data-cell="2"></div>
         </div>
+        <!-- Second row of cells -->
         <div class="row">
           <div class="cell" data-cell="3"></div>
           <div class="cell" data-cell="4"></div>
           <div class="cell" data-cell="5"></div>
         </div>
+        <!-- Third row of cells -->
         <div class="row">
           <div class="cell" data-cell="6"></div>
           <div class="cell" data-cell="7"></div>
           <div class="cell" data-cell="8"></div>
         </div>
       </div>
+      <!-- Button to reset the game -->
       <button id="resetButton">Start a New Feast</button>
+      <!-- Message display -->
       <p id="message">Let the Thanksgiving game begin!</p>
     </div>
   </body>
